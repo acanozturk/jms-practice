@@ -20,12 +20,12 @@ public class HelloWorldSender {
         final HelloWorldMessage message = HelloWorldMessage
                 .builder()
                 .uuid(UUID.randomUUID())
-                .message("Hello world.")
+                .message("Hello world")
                 .build();
 
         jmsTemplate.convertAndSend(JmsConfig.QUEUE, message);
 
-        System.out.println("Message sent");
+        System.out.println("Message sent.");
     }
 
 }
