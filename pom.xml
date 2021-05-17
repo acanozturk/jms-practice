@@ -53,11 +53,8 @@
         <!-- Start of activemq dependencies-->
         <dependency>
             <groupId>org.apache.activemq</groupId>
-            <artifactId>artemis-server</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.activemq</groupId>
-            <artifactId>artemis-jms-server</artifactId>
+            <artifactId>activemq-console</artifactId>
+            <version>5.16.2</version>
         </dependency>
         <!-- End of activemq dependencies-->
 
